@@ -1,8 +1,9 @@
 // Import Base
 @import "typography";
 // Base Element
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: color("black");
   font-size: $base-font-size;
   letter-spacing: 0.03em;
@@ -71,7 +72,7 @@ section {
   > .tooltip-inner {
     padding: 8px 15px;
     font-weight: 500;
-    font-family: "Lato";
+    font-family: "Josefin Sans", serif;
     color: color("white") !important;
     letter-spacing: 0.01em;
     font-size: $base-font-size - 3;
